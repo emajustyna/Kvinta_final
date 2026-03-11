@@ -1,0 +1,47 @@
+body {
+   background-image: url(./stažený\ soubor.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.scroll-text {
+    background:rgb(234, 0, 255);
+    width: 50%;
+    text-align: center;
+    border-radius: 12px;
+}
+h1 {
+     background: rgb(25, 44, 214);
+    width: 50%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.alpha, .opacity {
+    padding: 16px;
+    margin: 12px;
+    border: 2px solid black rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    max-width: 720px;
+}
+.alpha {
+    background-color: rgba(255, 255, 255, .5);
+}
+.opacity {
+    background-color: turquoise;
+    opacity: .5;
+}
+.g {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: center;
+    place-items: center;
+    margin: 10px auto;
+}
+.linear {
+    background-image: linear-gradient(to right, red, yellow);
+}
+.radial {
+    background-image: radial-gradient(rgb(235, 9, 235) 20%, turquoise);
+}
